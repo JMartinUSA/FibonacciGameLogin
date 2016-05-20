@@ -3,6 +3,9 @@ var USERNAME;
 var PASSWORD;
 var LOGGEDIN = false;
 
+document.addEventListener('pause', logout(), false);
+document.addEventListener('resume', login(), false);
+
 function registerTab(){
 	document.getElementById('loginTab').style.background = 'black';
 	document.getElementById('loginTab').style.color = 'white';
@@ -50,9 +53,9 @@ function logout(){
 	xhttp.send();
 
 	function afterLogout(){
-		ID = '';
-		USERNAME = '';
-		PASSWORD = '';
+		// ID = '';
+		// USERNAME = '';
+		// PASSWORD = '';
 	}
 }
 function login(){
