@@ -1,0 +1,46 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+#clock{
+	float:left;
+
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+#rightButtons{
+	float:right;
+
+	height:75%;
+	width:33.33%;
+}
+#bottomButtons{
+	clear:both;
+
+	height:25%;
+	width:100%;
+}
+.rightButton{
+	border:1px solid white;
+	border-radius: 2px;
+	color:white;
+	float:left;
+	margin:2.5px;
+	text-align: center;
+}
+.bottomButton{
+	border:1px solid white;
+	border-radius: 2px;
+	color:white;
+	float:left;
+	margin:2.5px;
+	text-align: center;
+}
+#statButton, #submitButton{
+	background: white;
+	opacity:.5;
+	position:absolute;
+	text-align: center;
+	z-index: 10;
+}
+

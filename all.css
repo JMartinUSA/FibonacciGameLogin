@@ -1,0 +1,33 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body{
+	font-family: arial, sans-serif, helvetica;
+	margin:0px;
+	background: black;
+	overflow: hidden;
+}
+.js{
+	display: none;
+}
+.container{
+
+}
+#leftBar{
+	background: red;
+	bottom:0px;
+	left:0px;
+	position:absolute;
+	top:0px;
+	width:15px;
+	z-index: 20;
+}
+#rightBar{
+	background: red;
+	bottom:0px;
+	right:0px;
+	position:absolute;
+	top:0px;
+	width:15px;
+	z-index: 20;
+}

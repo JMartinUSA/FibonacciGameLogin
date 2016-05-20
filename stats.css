@@ -1,0 +1,17 @@
+#stats{
+	background:black;
+	position:absolute;
+	z-index: 22;
+}
+#statText{
+	color: white;
+	text-align: center;
+}
+#backButton{
+	background: white;
+	border-radius: 3px;
+	color:black;
+	opacity: .5;
+	position:absolute;
+	text-align: center;
+}

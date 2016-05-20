@@ -1,0 +1,19 @@
+#transparentCover{
+	background:black;
+	opacity: .8;
+	position: absolute;
+	z-index: 20;
+}
+.menuButton{
+	color:rgba(255,255,255,0.7);
+	border:1px solid rgba(255,255,255,0.7);
+	border-radius: 2px;
+	position: absolute;
+	text-align: center;
+	background: rgba(0,0,0,.9);
+	z-index: 22;
+}
+#menu{
+	position: absolute;
+	z-index: 21;
+}

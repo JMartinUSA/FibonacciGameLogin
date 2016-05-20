@@ -1,0 +1,41 @@
+#overlay{
+	background: black;
+	color:white;
+	position:absolute;
+	text-align: center;
+	z-index: 15;
+}
+#resultText1{
+	position:absolute;
+}
+#resultOutput{
+	position:absolute;
+}
+#resultText2{
+	position:absolute;
+}
+#percentCorrect{
+	position:absolute;
+}
+.colorRed{
+	color:red;
+}
+.colorGreen{
+	color:green;
+}
+#continue{
+	background: white;
+	border-radius: 3px;
+	color:black;
+	opacity: .5;
+	position:absolute;
+}
+.correct{
+	color:green;
+}
+.incorrect{
+	color:red;
+}
+.resultText{
+
+}
