@@ -25,7 +25,7 @@ function Stats(){
 		<div id="stats">\
 			<div id="statText">\
 				<br>\
-				Welcome '+USERNAME+'<br>\
+				Welcome, '+USERNAME+'<br>\
 				Thank you for playing!<br>\
 				<br>\
 				This Session<br>\
