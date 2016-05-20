@@ -3,8 +3,8 @@ var USERNAME;
 var PASSWORD;
 var LOGGEDIN = false;
 
-document.addEventListener('pause', logout(), false);
-document.addEventListener('resume', login(), false);
+// document.addEventListener('pause', logout(), false);
+// document.addEventListener('resume', login(), false);
 
 function registerTab(){
 	document.getElementById('loginTab').style.background = 'black';
