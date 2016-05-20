@@ -82,7 +82,7 @@ function login(){
 				if( receivePHP == 'login'){
 					doLogin();
 				}else if( receivePHP == 'needVerify' ){
-					error += ['Please verify your email first.'];
+					error += ['Please verify your email first. If you don\'t see an email from us, please check your spam folder.'];
 				}else if( receivePHP == 'passwordIncorrect' ){
 					error += ['Password incorrect. '];
 				}else if( receivePHP == 'noAccount' ){
@@ -226,7 +226,7 @@ function register(){
 		}else if( receivePHP == 'Invalid Email.' ){
 			error += ['Please enter a valid email address. '];
 		}else if( receivePHP == 'Success.' ){
-			confirm += ['Your account has been created, please activate it by clicking on the activation link sent to your email.'];
+			confirm += ['Your account has been created, please activate it by clicking on the activation link sent to your email. If you don\'t see an email from us, please check your spam folder.'];
 			document.getElementById('confirmMsg').innerHTML = confirm;
 		}
 
